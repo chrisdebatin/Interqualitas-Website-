@@ -1,0 +1,16 @@
+{
+  "name": "interqualitas-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website der interQualitas GmbH – statisch generiert, ohne Laufzeit-Abhängigkeiten.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node scripts/serve.mjs --watch",
+    "preview": "node build.mjs && node scripts/serve.mjs",
+    "check": "node build.mjs && node scripts/check-links.mjs"
+  }
+}
