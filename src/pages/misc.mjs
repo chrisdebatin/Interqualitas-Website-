@@ -66,7 +66,8 @@ export const datenschutz = legalPage({
   title: 'Datenschutzerklärung',
   heading: 'Datenschutz\u00aderklärung',
   description: 'Datenschutzerklärung der interQualitas GmbH: Informationen zur Verarbeitung personenbezogener Daten auf dieser Website.',
-  // Wortgleich von der bisherigen Website übernommen (src/content/datenschutz.html).
+  // Text in src/content/datenschutz.html – bei Änderungen an Hosting, Formular oder
+  // eingebundenen Diensten dort mit anpassen.
   content: raw(readFileSync(new URL('../content/datenschutz.html', import.meta.url), 'utf8')),
 });
 

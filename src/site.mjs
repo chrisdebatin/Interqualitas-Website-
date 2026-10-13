@@ -21,6 +21,8 @@ export const site = {
   // Ziel für das Kontaktformular (z. B. Formspree, Netlify Forms oder ein
   // eigenes Backend). Leer lassen: Das Formular öffnet dann das E-Mail-Programm
   // der Besucher:innen mit einer vorausgefüllten Nachricht an `email`.
+  // Wichtig: Wird hier ein Dienst eingetragen, muss er in der
+  // Datenschutzerklärung (src/content/datenschutz.html) genannt werden.
   contactFormEndpoint: '',
 };
 
